@@ -1,0 +1,13 @@
+.movie-thumbnail{
+    width: 300px;
+   
+    margin: 5px;
+}
+.movie-image{
+    height: 400px;
+}
+.movie-overview{
+    height: 50px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}

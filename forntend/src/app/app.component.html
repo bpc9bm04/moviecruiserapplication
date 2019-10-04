@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<mat-toolbar color="primary">
+    <span>Moie Cruiser Application</span>
+    <button mat-button [routerLink]="['/movies/popular']">Popular Movies</button>
+    <button mat-button [routerLink]="['/movies/top_rated']">Top Rated Movies</button>
+    <button mat-button [routerLink]="['/movies/watchlist']">Watch List</button>
+    <button class="search-button" mat-button [routerLink]="['/movies/search']">Search</button>
+    <form (ngSubmit)="logout()"><button mat-button [routerLink]="['/logout']">logout</button></form>
+</mat-toolbar>
+<router-outlet></router-outlet>
+
+
